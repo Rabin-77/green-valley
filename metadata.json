@@ -1,0 +1,6 @@
+{
+  "name": "Green Valley Interiors",
+  "description": "Architectural and luxury bespoke interior design studio crafting turnkey penthouses, modern residences, and refined spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

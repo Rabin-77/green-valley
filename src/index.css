@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-sans: 'Manrope', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF8F5;
+    color: #1C1917;
+  }
+}
+
+/* Professional Header Font Classes */
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-bodoni {
+  font-family: 'Bodoni Moda', Georgia, serif;
+}
+
+.font-manrope {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Manrope', system-ui, sans-serif;
+}
+
+/* Brand Colors */
+:root {
+  --color-brand-primary: #032517;
+  --color-brand-gold: #B89547;
+  --color-brand-gold-light: #F3E3BE;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4EFEA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C8BCAC;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9B8D7B;
+}
